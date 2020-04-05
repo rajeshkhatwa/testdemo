@@ -1,0 +1,11 @@
+---
+applications:
+  - name: Demo1
+    memory: 1024M
+    buildpack: sap_java_buildpack     
+    instances: 1
+    random-route: true
+    host: khatwa-upload1
+    timeout: 100
+    path: ./target/SpringDemo-4-0.0.1-SNAPSHOT.war
+    
